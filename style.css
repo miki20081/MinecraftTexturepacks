@@ -1,3 +1,29 @@
 body {
-    background-color: black;
+    background-color: rgb(207, 82, 82);
+    margin: 6rem center;
+}
+
+main {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box {
+    width: 100px;
+    box-align: center;
+    display: flex;
+	flex-direction: column;
+    
+	background-color: rgb(68, 18, 18);
+	color: var(--light-grey);
+	border: 1px solid var(--dark-grey);
+
+	overflow: hidden;
+}
+
+.box-showcase {
+    align-items: center;
+    border: 12px;
+    border-color: black;
 }
