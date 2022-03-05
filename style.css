@@ -107,6 +107,23 @@ a {
 	margin-left: auto;
 }
 
+.link-grid .link-text-no-arrow::before {
+	content: "";
+	background-color: currentColor;
+	width: 0.875rem;
+	height: 0.875rem;
+
+	-webkit-mask-image: var(--link-icon);
+	mask-image: var(--link-icon);
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.link-grid .link-text-no-arrow::after {
+	content: "";
+	margin-left: auto;
+}
+
 .link-grid > .link-showcase {
 	display: flex;
 	flex-direction: column;
