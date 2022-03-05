@@ -107,6 +107,14 @@ a {
 	margin-left: auto;
 }
 
+.link-grid .link-text-no-arrow {
+	display: flex;
+	align-items: center;
+	padding: 0.875rem;
+	gap: 0.875rem;
+	height: 3.125rem;
+}
+
 .link-grid .link-text-no-arrow::before {
 	content: "";
 	background-color: currentColor;
